@@ -756,3 +756,104 @@ cite img {
   border-radius: 50%;
   margin-right: 10px;
   vertical-align: middle; }
+
+/* --------------------------------------- */
+/* SIGN UP */
+/* --------------------------------------- */
+.section-plans {
+  background-color: #f4f4f4; }
+
+.plan-box {
+  background-color: #fff;
+  border-radius: 5px;
+  width: 90%;
+  margin-left: 5%;
+  box-shadow: 0 2px 2px #9E9E9E; }
+
+.plan-box div {
+  padding: 15px;
+  border-bottom: 1px solid #e8e8e8; }
+
+.plan-box div:first-child {
+  background-color: #fcfcfc;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px; }
+
+.plan-box div:last-child {
+  text-align: center;
+  border: 0; }
+
+.plan-price {
+  font-size: 300%;
+  margin-bottom: 10px;
+  font-weight: 100;
+  color: #e67e22; }
+
+.plan-price span {
+  font-size: 30%;
+  font-weight: 300; }
+
+.plan-price-meal {
+  font-size: 80%; }
+
+.plan-box ul {
+  list-style: none; }
+
+.plan-box ul li {
+  padding: 5px 0; }
+
+/* --------------------------------------- */
+/* FORM */
+/* --------------------------------------- */
+.map-box {
+  width: 100%;
+  height: 630px;
+  position: relative; }
+
+.map {
+  width: 100%;
+  height: 630px;
+  position: relative;
+  z-index: 0; }
+
+.form-box {
+  position: absolute;
+  width: 50%;
+  top: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 10;
+  height: 630px;
+  padding-top: 40px; }
+
+.form-messages {
+  width: 70%;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 3px;
+  margin-bottom: 30px; }
+
+.success {
+  background-color: rgba(38, 191, 68, 0.8); }
+
+.contact-form {
+  width: 90%;
+  margin: 0 auto; }
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+  width: 100%;
+  padding: 7px;
+  border-radius: 3px;
+  border: 1px solid #ccc; }
+
+textarea {
+  height: 100px; }
+
+input[type=checkbox] {
+  margin: 10px 5px 10px 0; }
+
+*:focus {
+  outline: none; }
