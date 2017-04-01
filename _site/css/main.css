@@ -546,8 +546,8 @@ input[type=submit]:active {
   color: #fff; }
 
 header {
-  background-image: url(img/hero.jpg);
-  background-image: url(img/hero.jpg);
+  background-image: url(assets/hero.jpg);
+  background-image: url(assets/hero.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
