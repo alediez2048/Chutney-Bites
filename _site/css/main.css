@@ -48,6 +48,7 @@ h2 {
   word-spacing: 2px;
   text-align: center;
   margin-bottom: 20px;
+  margin-top: 100px;
   letter-spacing: 1px; }
   h2:after {
     display: block;
@@ -148,8 +149,8 @@ input[type=submit]:hover, input[type=submit]:active {
   color: #fff; }
 
 header {
-  background-image: url(site/assets/hero.jpg);
-  background-image: url(site/assets/hero.jpg);
+  background-image: url(../assets/hero.jpg);
+  background-image: url(../assets/hero.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -158,8 +159,8 @@ header {
 .hero-text-box {
   position: absolute;
   width: 1140px;
-  top: 50%;
-  left: 50%;
+  top: 45%;
+  left: 40%;
   margin-top: 100px;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%); }
@@ -226,7 +227,8 @@ header {
   margin-bottom: 25px; }
 
 .section-meals {
-  padding: 0; }
+  padding: 0;
+  margin-top: 80px; }
 
 .meals-showcase {
   list-style: none;
@@ -268,7 +270,7 @@ header {
     margin-top: 30px; }
   .steps-box:last-child {
     padding-left: 3%;
-    margin-top: 70px; }
+    margin-top: 40px; }
 
 .app-screen {
   width: 90%; }
@@ -307,7 +309,7 @@ header {
   margin-bottom: 5px; }
 
 .section-testimonials {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(assets/back-customers.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../assets/back-customers.jpg);
   background-size: cover;
   color: #fff;
   background-attachment: fixed; }
@@ -378,7 +380,7 @@ cite {
   position: relative; }
 
 .map {
-  width: 100%;
+  width: 50%;
   height: 630px;
   position: relative;
   z-index: 0; }
